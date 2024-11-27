@@ -1,0 +1,22 @@
+{
+  "name": "console.log",
+  "version": "1.0.0",
+  "description": "<!-- To demonstrate :\"How console.log() can degrade your performance\" --> # Main Objective is to know how console.log() can degrade your performance # Secondary Objective is to get the performance difference between console.log() and winston logger <!-- The experiment will be done in 2 go: -->     1 using console.log() to print 100 lines of text     2. using winston logger to print 100 lines of text",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 start app.js",
+    "dev": "nodemon app.js",
+    "test:console": "node tests/testConsoleLog.js",
+    "test:winston": "node tests/testWinstonLog.js",
+    "test:noLog": "node tests/testNoLog.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "csv-writer": "^1.6.0",
+    "express": "^4.21.1",
+    "winston": "^3.17.0",
+    "xlsx": "^0.18.5"
+  }
+}
