@@ -7,7 +7,7 @@
 
 <!-- For both PM2 will be used on a MAC M1 machine -->
 
-#Commands to run the experiment
+# Commands to run the experiment
 ```bash
 # To run the console.log() experiment
 npm run test:console
@@ -16,8 +16,9 @@ npm run test:console
 npm run test:winston
 
 # To run without any logger
+npm run test:noLog
 
 ```
-
-# Results
 <!-- The results will be shown in the console and save in xlsx file-->
+# Results
+Please refer to the results folder
