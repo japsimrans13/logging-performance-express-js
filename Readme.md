@@ -1,4 +1,4 @@
-# To demonstrate :"How console.log() can degrade your performance"
+# To demonstrate :"How console.log() can degrade your API performance"
 ### Main Objective is to know how console.log() can degrade your performance
 # Secondary Objective is to get the performance difference between console.log() and winston logger
 <!-- The experiment will be done in 3 parts: -->
